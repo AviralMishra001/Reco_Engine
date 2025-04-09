@@ -4,7 +4,7 @@ import chromadb
 import re
 import requests
 from bs4 import BeautifulSoup
-
+import utils
 model = SentenceTransformer("all-MiniLM-L6-v2")
 chroma_client = chromadb.PersistentClient(path="./shl_db")
 collection = chroma_client.get_or_create_collection(name="shl_assessments")
