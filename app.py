@@ -1,12 +1,19 @@
+import os
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 import chromadb
 import re
 import requests
 from bs4 import BeautifulSoup
-import utils
+from chromadb.config import Settings
+from utils import build_chroma_db
+
+# Build DB only if needed
+build_chroma_db()
+
+# Load model & Chroma collection
 model = SentenceTransformer("all-MiniLM-L6-v2")
-chroma_client = chromadb.PersistentClient(path="./shl_db")
+chroma_client = chromadb.PersistentClient(path="./shl_db", settings=Settings(anonymized_telemetry=False))
 collection = chroma_client.get_or_create_collection(name="shl_assessments")
 
 def extract_text_from_url(url):
@@ -49,10 +56,9 @@ def recommend_assessment(user_input, top_k=3):
         )
     return recommendations if recommendations else ["No matching assessments found."]
 
-
 st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
 
-st.title("🧠 SHL Assessment Recommendation Engine")
+st.title("SHL Assessment Recommendation Engine")
 st.markdown("Paste a job description, a LinkedIn job URL, or just describe what kind of role you want to assess.")
 
 query = st.text_area("💬 Enter your query or job link", height=150)
