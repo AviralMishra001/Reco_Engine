@@ -85,6 +85,7 @@ top_k = st.slider("How many assessments to show?", min_value=1, max_value=10, va
 if st.button("🔍 Recommend Assessments"):
     if query.strip():
         with st.spinner("Finding the best matching SHL assessments..."):
+            init_db()
             results = recommend_assessment(query, top_k=top_k)
             for r in results:
                 st.markdown(r)
