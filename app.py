@@ -13,8 +13,13 @@ st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
 st.title("SHL Assessment Recommendation Engine")
 st.markdown("Paste a job description, a LinkedIn job URL, or just describe what kind of role you want to assess.")
 
-# ✅ Build DB (only builds if not exists)
-build_chroma_db()
+@st.cache_resource
+def init_db():
+    build_chroma_db()
+    return True
+
+# Will only run if user actually queries
+
 
 # ✅ Cached model loader
 @st.cache_resource
