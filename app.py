@@ -1,20 +1,37 @@
 import os
-import streamlit as st
-from sentence_transformers import SentenceTransformer
-import chromadb
 import re
 import requests
+import streamlit as st
 from bs4 import BeautifulSoup
+from sentence_transformers import SentenceTransformer
+import chromadb
 from chromadb.config import Settings
 from utils import build_chroma_db
 
-# Build DB only if needed
+# ✅ Streamlit page setup
+st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
+st.title("SHL Assessment Recommendation Engine")
+st.markdown("Paste a job description, a LinkedIn job URL, or just describe what kind of role you want to assess.")
+
+# ✅ Build DB (only builds if not exists)
 build_chroma_db()
 
-# Load model & Chroma collection
-model = SentenceTransformer("all-MiniLM-L6-v2")
-chroma_client = chromadb.PersistentClient(path="./shl_db", settings=Settings(anonymized_telemetry=False))
-collection = chroma_client.get_or_create_collection(name="shl_assessments")
+# ✅ Cached model loader
+@st.cache_resource
+def load_model():
+    return SentenceTransformer("all-MiniLM-L6-v2")
+
+# ✅ Cached ChromaDB collection loader
+@st.cache_resource
+def load_chroma_collection():
+    client = chromadb.PersistentClient(
+        path="./shl_db", settings=Settings(anonymized_telemetry=False)
+    )
+    return client.get_or_create_collection(name="shl_assessments")
+
+# Load cached resources
+model = load_model()
+collection = load_chroma_collection()
 
 def extract_text_from_url(url):
     try:
@@ -26,7 +43,7 @@ def extract_text_from_url(url):
         else:
             return None
     except Exception as e:
-        print(f"Error scraping URL: {e}")
+        print(f"❌ Error scraping URL: {e}")
         return None
 
 def recommend_assessment(user_input, top_k=3):
@@ -56,11 +73,7 @@ def recommend_assessment(user_input, top_k=3):
         )
     return recommendations if recommendations else ["No matching assessments found."]
 
-st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
-
-st.title("SHL Assessment Recommendation Engine")
-st.markdown("Paste a job description, a LinkedIn job URL, or just describe what kind of role you want to assess.")
-
+# ✅ User Input
 query = st.text_area("💬 Enter your query or job link", height=150)
 top_k = st.slider("How many assessments to show?", min_value=1, max_value=10, value=3)
 
