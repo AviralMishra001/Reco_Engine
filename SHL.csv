@@ -1,0 +1,139 @@
+Assessment Name,Remote Testing,Adaptive/IRT,Test Type,Duration,Description,URL
+.NET Framework 4.5,Yes,Yes,K,30 min,Measures knowledge of .NET  and Application development.,https://www.shl.com/solutions/products/product-catalog/view/net-framework-4-5/
+.NET MVC (New),Yes,No,K,17 min,Mrasures knowledge of MVC architecture and MVC validation and security.,https://www.shl.com/solutions/products/product-catalog/view/net-mvc-new/
+.NET MVVM (New),Yes,No,K,5 min,Measures knowledge of MVVM pattern scenarios and Data validation.,https://www.shl.com/solutions/products/product-catalog/view/net-mvvm-new/
+.NET WCF (New),Yes,No,K,11 min,Measures knowledge of .NET Fundamental and Programming model and SOA along with programming WCF.,https://www.shl.com/solutions/products/product-catalog/view/net-wcf-new/
+.NET WPF (New),Yes,No,K,9 min,"Measures Knowledge of .NET basics and XAML controls, also access WPF.",https://www.shl.com/solutions/products/product-catalog/view/net-wpf-new/
+ADO.NET (New),Yes,No,K,10 min,Measures Knowledge of ADO.NET architecture and data provider objects.,https://www.shl.com/solutions/products/product-catalog/view/ado-net-new/
+.NET XAML (New),Yes,No,K,5 min,Measures Knowledge of XAML triggers and Data Binding.,https://www.shl.com/solutions/products/product-catalog/view/net-xaml-new/
+Adobe Experience Manager (New),Yes,No,K,17 min,Measures Knowledge of Adobe and Troubleshooting in Adobe manager projects.,https://www.shl.com/solutions/products/product-catalog/view/adobe-experience-manager-new/
+Adobe Photoshop CC,Yes,Yes,K,20 min,Measures Knowledge of Adobe photoshop and Design or Painting.,https://www.shl.com/solutions/products/product-catalog/view/adobe-photoshop-cc/
+Aeronautical Engineering (New),Yes,No,K,10 min,"Measures Knowledge of Aeronautics, Aerodynamics and space dynamics.",https://www.shl.com/solutions/products/product-catalog/view/aeronautical-engineering-new/
+Aerospace Engineering (New),Yes,No,K,10 min,Measures Knowledge of aerodynamics including Flight and space dynamics.,https://www.shl.com/solutions/products/product-catalog/view/aerospace-engineering-new/
+Agile Software Development,Yes,No,K,7 min,Measures Knowledge of agile methodology and software development.,https://www.shl.com/solutions/products/product-catalog/view/agile-software-development/
+Agile Testing (New),Yes,No,K,13 min ,Measures Knowledge of Tools and Techniques involved in Agile testing methodology.,https://www.shl.com/solutions/products/product-catalog/view/agile-testing-new/
+AI Skills,yes,No,P,16 min,Measures Skills of Artificial Intelligence(AI).,https://www.shl.com/solutions/products/product-catalog/view/ai-skills/
+Amazon Web Services (AWS) Development (New),yes,No,K,6 min,Measures Knowledge of AWS delivery process and it's steps.,https://www.shl.com/solutions/products/product-catalog/view/amazon-web-services-aws-development-new/
+Android Development (New),yes,No,K,7 min,Measures Knowledge of User interface and it's components for android device.,https://www.shl.com/solutions/products/product-catalog/view/android-development-new/
+Angular 6 (New),yes,No,K,11 min,"Measures Knowledge of Angular 6 and concepts like data binding , typescript.",https://www.shl.com/solutions/products/product-catalog/view/angular-6-new/
+AngularJS (New),yes,No,K,9 min,Measures Knowledge of AngularJS.,https://www.shl.com/solutions/products/product-catalog/view/angularjs-new/
+Apache Hadoop (New),yes,No,K,7 min,Measures Knowledge of Apache Hadoop and MapReduce.,https://www.shl.com/solutions/products/product-catalog/view/apache-hadoop-new/
+Apache Hadoop Extensions (New),yes,No,K,9 min,Measures Knowledge of Apache Pig and Hive and Hbase.,https://www.shl.com/solutions/products/product-catalog/view/apache-hadoop-new/
+Apache HBase (New),yes,No,K,5 min,Measures Knowledge of Apache Hbase and Hbase Client API and MapReduce concepts.,https://www.shl.com/solutions/products/product-catalog/view/apache-hbase-new/
+Apache Hive (New),yes,No,K,5 min,Tests Knowledge of Apache Hive and Hive query language.,https://www.shl.com/solutions/products/product-catalog/view/apache-hive-new/
+Apache Kafka (New),yes,No,K,6 min,Tests Knowledge of Apache Kafka and clusters,https://www.shl.com/solutions/products/product-catalog/view/apache-kafka-new/
+Apache Pig (New),yes,No,K,6 min,Tests Knowledge of Apache Pig and PigLatin.,https://www.shl.com/solutions/products/product-catalog/view/apache-pig-new/
+Apache Spark (New),yes,No,K,8 min,Tests Knowledge of Apache Spark and RDD operations.,https://www.shl.com/solutions/products/product-catalog/view/apache-spark-new/
+ASP .NET with C# (New),yes,No,K,13 min ,Tests Knowledge of .NET and C# and OOPs concepts.,https://www.shl.com/solutions/products/product-catalog/view/asp-net-with-c-new/
+ASP.NET 4.5,yes,yes,K,30 min,Tests Knowledge of ASP .NET and Troubleshooting and Security. ,https://www.shl.com/solutions/products/product-catalog/view/asp-net-4-5/
+Automata - Fix (New),yes,No,S,max 20 min,Tests Debugging Skills in C and C++ and Java.,https://www.shl.com/solutions/products/product-catalog/view/automata-fix-new/
+Automata - SQL (New),yes,No,S,max 30 min,Measures Skills of SQL ,https://www.shl.com/solutions/products/product-catalog/view/automata-sql-new/
+Automata (New),yes,No,S,max 45 min,Tests programming ability using real world problems.,https://www.shl.com/solutions/products/product-catalog/view/automata-new/
+Automata Data Science (New),yes,No,S,max 60 min,Tests skills of Machine Learning Algorithm.,https://www.shl.com/solutions/products/product-catalog/view/automata-data-science-new/
+Automata Data Science Pro (New),yes,No,S,max 60 min,Tests skills of Machine Learning Algorithm.,https://www.shl.com/solutions/products/product-catalog/view/automata-data-science-pro-new/
+Automata Front End,yes,No,S,30 min,Measures Skills of HTML and CSS and Javascript.,https://www.shl.com/solutions/products/product-catalog/view/automata-front-end/
+Automata Pro (New),yes,No,S,max 60 min,Tests programming ability using real world problems.,https://www.shl.com/solutions/products/product-catalog/view/automata-pro-new/
+Automata Selenium,yes,No,S,60 min,Tests Testing Ability using Selenium.,https://www.shl.com/solutions/products/product-catalog/view/automata-selenium/
+Automation Anywhere RPA Development (New),yes,No,K,8 min,Measures Knowledge of Automation Task editor and control room.,https://www.shl.com/solutions/products/product-catalog/view/automation-anywhere-rpa-development-new/
+Basic Computer Literacy (Windows 10) (New),yes,No,"S,K",30 min,Tests Knowledge of Operating System and Computer Terminology.,https://www.shl.com/solutions/products/product-catalog/view/basic-computer-literacy-windows-10-new/
+C Programming (New),yes,No,K,10 min,Test Programming basics of C and arrays and Data Types.,https://www.shl.com/solutions/products/product-catalog/view/c-programming-new/
+C# Programming (New),yes,No,K,9 min,Tests C# programming language and OOPs and execption handling.,https://www.shl.com/solutions/products/product-catalog/view/c-programming-new-4039/
+C++ Programming (New),yes,No,S,10 min,Tests ability to code with C++ language ,https://www.shl.com/solutions/products/product-catalog/view/c-programming-new-4122/
+Cloud Computing (New),yes,No,S,8 min,Tests Cloud Computing concepts and Cloud service model.,https://www.shl.com/solutions/products/product-catalog/view/cloud-computing-new/
+COBOL Programming (New),yes,No,K,10 min,Tests knowledge of COBOL programming ,https://www.shl.com/solutions/products/product-catalog/view/cobol-programming-new/
+Computer Science (New),yes,No,K,12 min,Tests Ability of Operating system  and Database of Computer networks.,https://www.shl.com/solutions/products/product-catalog/view/computer-science-new/
+Contact Center Call Simulation (New),yes,No,"K,S",15 min,Tests Ability to handle Customers and Typing skills.,https://www.shl.com/solutions/products/product-catalog/view/contact-center-call-simulation-new/
+Conversational Multichat Simulation,yes,No,K,11 min,Tests Ability to Handle many Customers and Grammar skills.,https://www.shl.com/solutions/products/product-catalog/view/conversational-multichat-simulation/
+Core Java (Advanced Level) (New),yes,No,K,13 min,Tests Knowledge of Java and OOPs.,https://www.shl.com/solutions/products/product-catalog/view/core-java-advanced-level-new/
+Core Java (Entry Level) (New),yes,No,"B,S",13 min ,Tests Knowledge of Java and OOPs.,https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/
+CSS3 (New),yes,No,K,8 min,Tests Knowledge of CSS3 and Styling to web.,https://www.shl.com/solutions/products/product-catalog/view/css3-new/
+Culinary Skills (New),yes,No,S,7 min,Ensures Knowledge of Cooking and Kitchen Safety.,https://www.shl.com/solutions/products/product-catalog/view/culinary-skills-new/
+Cyber Risk (New),yes,No,K,9 min,Tests Cyber risk management and cyber security concepts.,https://www.shl.com/solutions/products/product-catalog/view/cyber-risk-new/
+Data Entry (New),yes,No,K,4 min,Tests Ability of Data Entry.,https://www.shl.com/solutions/products/product-catalog/view/data-entry-new/
+Data Entry Alphanumeric Split Screen - US,yes,No,K,5 min,Tests speed and accuracy of Typing text and numbers.,https://www.shl.com/solutions/products/product-catalog/view/data-entry-alphanumeric-split-screen-us/
+Data Entry Numeric Split Screen - US,yes,No,P,5 min,Tests speed and accuracy of Typing numbers.,https://www.shl.com/solutions/products/product-catalog/view/data-entry-numeric-split-screen-us/
+Data Entry Ten Key Split Screen,yes,No,K,3 min,Tests speed and accuracy of Typing numbers.,https://www.shl.com/solutions/products/product-catalog/view/data-entry-ten-key-split-screen/
+Data Science (New),yes,No,K,14 min,Tests Knowledge of Machine learning and Data Handling.,https://www.shl.com/solutions/products/product-catalog/view/data-science-new/
+Docker (New),yes,No,K,10 min,Tests Knowledge of Docker Container and Data Mangement.,https://www.shl.com/solutions/products/product-catalog/view/docker-new/
+Dojo (New),yes,No,K,11 min,Tests User Ability of Dojo and User interface or UI.,https://www.shl.com/solutions/products/product-catalog/view/dojo-new/
+Drupal (New),yes,No,K,17 min,Tests Knowledge of Drupal and User interface and security.,https://www.shl.com/solutions/products/product-catalog/view/drupal-new/
+Enterprise Java Beans (New),yes,No,K,4 min,Tests User in Enterprise java beans and types of Java beans.,https://www.shl.com/solutions/products/product-catalog/view/enterprise-java-beans-new/
+ExpressJS (New),yes,No,K,7 min,Test Knowledge of routing and security and performance in ExpressJS.,https://www.shl.com/solutions/products/product-catalog/view/expressjs-new/
+HTML/CSS (New),yes,No,K,12 min,Tests User Coding in HTML for User interface and CSS for styling.,https://www.shl.com/solutions/products/product-catalog/view/htmlcss-new/
+HTML5 (New),yes,No,K,11 min,Tests Knowledge of HTML5 and User interface creation.,https://www.shl.com/solutions/products/product-catalog/view/html5-new/
+Informatica (Architecture) (New),yes,No,K,10 min,Tests knowledge of data warehousing and informatica implementation.,https://www.shl.com/solutions/products/product-catalog/view/informatica-architecture-new/
+Informatica (Developer) (New),yes,No,K,11 min,Tests knowledge of data warehousing and informatica implementation.,https://www.shl.com/solutions/products/product-catalog/view/informatica-developer-new/
+iOS Development (New),yes,No,K,7 min,Tests ability to User interface design and iOS.,https://www.shl.com/solutions/products/product-catalog/view/ios-development-new/
+ITIL (IT Infrastructure Library) (New),yes,No,K,8 min,Tests Handling of problem and capacity management.,https://www.shl.com/solutions/products/product-catalog/view/itil-it-infrastructure-library-new/
+Java 2 Platform Enterprise Edition 1.4 Fundamental,yes,yes,K,30 min,Tests user knowledge of J2EE for API support and Web Development.,https://www.shl.com/solutions/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/
+Java 8 (New),yes,No,K,18 min,Tests Java knowledge for Class designs and I/O fundamentals.,https://www.shl.com/solutions/products/product-catalog/view/java-8-new/
+Java Design Patterns (New),yes,No,K,5 min,Tests Java Knowledge for design patterns and threads.,https://www.shl.com/solutions/products/product-catalog/view/java-design-patterns-new/
+Java Frameworks (New),yes,No,K,17 min,Assesses ability to work with Java Frameworks  like Struts and Hibernate and spring.,https://www.shl.com/solutions/products/product-catalog/view/java-frameworks-new/
+Java Platform Enterprise Edition 7 (Java EE 7),yes,yes,K,30 min,Tests ability to work with Java EE 7 for Database and web services.,https://www.shl.com/solutions/products/product-catalog/view/java-platform-enterprise-edition-7-java-ee-7/
+Java Web Services (New),yes,No,K,8 min,Tests Knowledge of Java and Oops.,https://www.shl.com/solutions/products/product-catalog/view/java-web-services-new/
+JavaScript (New),yes,No,K,9 min,Tests ability to do programming in Javascript for frontend development.,https://www.shl.com/solutions/products/product-catalog/view/javascript-new/
+jQuery (New),yes,No,K,10 min,Tests knowledge of jQuery for Animations and User Interface.,https://www.shl.com/solutions/products/product-catalog/view/jquery-new/
+Kubernetes (New),yes,No,K,6 min,Assesses ability to work with Kubernetes Cluster and services.,https://www.shl.com/solutions/products/product-catalog/view/kubernetes-new/
+Linux Administration (New),yes,No,K,10 min,Tests Knowledge of Linux operating system.,https://www.shl.com/solutions/products/product-catalog/view/linux-administration-new/
+Linux Operating System,yes,No,K,15 min,Tests Knowledge of Linux and memory Management.,https://www.shl.com/solutions/products/product-catalog/view/linux-operating-system/
+Linux Programming (General),yes,yes,"K,S",25 min,Tests knowledge of Linux and C and C++ for Debugging problems.,https://www.shl.com/solutions/products/product-catalog/view/linux-programming-general/
+Load Runner (New),yes,No,"K,S",6 min,Tests User ability of result analysis and concepts of Load runner.,https://www.shl.com/solutions/products/product-catalog/view/load-runner-new/
+Manual Testing (New),yes,No,K,10 min,Tests Ability of Testing Software and tools.,https://www.shl.com/solutions/products/product-catalog/view/manual-testing-new/
+Microsoft Dynamics Development (New),yes,No,"K,S",9 min,Tests Knowledge of Microsoft Dynamics and web services.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-dynamics-development-new/
+Microsoft Excel 365 - Essentials (New),yes,No,K,30 min,Tests Microsoft essentials like MS Excel.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-excel-365-essentials-new/
+Microsoft Excel 365 (New),yes,No,K,35 min,Tests Microsoft essentials like MS Excel.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-excel-365-new/
+Microsoft Outlook 2013 (adaptive),yes,yes,"K,S",25 min,Tests Ability of Mail and application management.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-outlook-2013-adaptive/
+Microsoft SQL Server 2014 Programming,yes,yes,K,35 min,Tests User Ability to work with SQL and Database design.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-sql-server-2014-programming/
+Microsoft Windows Server 2012 Administration,yes,yes,K,35 min,Tests User knowledge of Security and Windows server administration.,https://www.shl.com/solutions/products/product-catalog/view/microsoft-windows-server-2012-administration/
+MongoDB (New),yes,No,S,7 min,Measures the knowledge of Database MongoDB.,https://www.shl.com/solutions/products/product-catalog/view/mongodb-new/
+MS Access (New),yes,No,K,7 min,measures the knowledge of MS Access programming.,https://www.shl.com/solutions/products/product-catalog/view/ms-access-new/
+MS Excel (New),yes,No,K,6 min,measures the ability to use MS Excel.,https://www.shl.com/solutions/products/product-catalog/view/ms-excel-new/
+MS Office Basic Computer Literacy (New),yes,No,K,7 min,measures the ability to use MS Word and MS Excel and MS PowerPoint.,https://www.shl.com/solutions/products/product-catalog/view/ms-office-basic-computer-literacy-new/
+MS Office Basic Computer Literacy (Sim) (New),yes,No,"A,K,S",5 min,measures the ability to use basic computer operations like MS office.,https://www.shl.com/solutions/products/product-catalog/view/ms-office-basic-computer-literacy-sim-new/
+MS PowerPoint (New),yes,No,K,4 min,measures the knowledge of MS PowerPoint.,https://www.shl.com/solutions/products/product-catalog/view/ms-powerpoint-new/
+MS Word (New),yes,No,K,4 min,measures the ability to use MS Word.,https://www.shl.com/solutions/products/product-catalog/view/ms-word-new/
+MuleSoft Development (New),yes,No,K,17 min,measures the knowledge of MuleSoft for API and Deployment.,https://www.shl.com/solutions/products/product-catalog/view/mulesoft-development-new/
+Multitasking Ability,yes,No,K,20 min,measure of one’s ability to adeptly work on more than one task.,https://www.shl.com/solutions/products/product-catalog/view/multitasking-ability/
+Networking and Implementation (New),yes,No,K,7 min,measures the knowledge of networking devices.,https://www.shl.com/solutions/products/product-catalog/view/networking-and-implementation-new/
+Node.js (New),yes,No,K,9 min,measures the basic knowledge of Node.js and express framework.,https://www.shl.com/solutions/products/product-catalog/view/node-js-new/
+Oracle DBA (Advanced Level) (New),yes,No,K,12 min,measures the knowledge of Oracle DB and MySQL.,https://www.shl.com/solutions/products/product-catalog/view/oracle-dba-advanced-level-new/
+Oracle DBA (Entry Level) (New),yes,No,K,12 min,measures the knowledge of Oracle DB and MySQL.,https://www.shl.com/solutions/products/product-catalog/view/oracle-dba-entry-level-new/
+Oracle PL/SQL (New),yes,No,K,11 min,measures the knowledge of SQL and Relational Database concepts.,https://www.shl.com/solutions/products/product-catalog/view/oracle-plsql-new/
+Oracle WebLogic Server (New),yes,No,K,7 min,measures the knowledge of the concepts of WebLogic such as server installation and deployment.,https://www.shl.com/solutions/products/product-catalog/view/oracle-weblogic-server-new/
+Pega Development (New),yes,No,K,17 min,measures the knowledge of Pega architecture and user interface.,https://www.shl.com/solutions/products/product-catalog/view/pega-development-new/
+Perl (New),yes,No,K,9 min,measures the knowledge of Perl scripting used for text manipulation.,https://www.shl.com/solutions/products/product-catalog/view/perl-new/
+PHP (New),yes,No,K,8 min,measures the knowledge of OOPs and PHP.,https://www.shl.com/solutions/products/product-catalog/view/php-new/
+Programming Concepts,yes,No,K,25 min,measures knowledge of the core aspects of all programming languages.,https://www.shl.com/solutions/products/product-catalog/view/programming-concepts/
+Project Management (2013),yes,No,K,30 min,measures knowledge of how to manage projects to ensure that objectives are completed on time and within budget.,https://www.shl.com/solutions/products/product-catalog/view/project-management-2013/
+Python (New),yes,No,K,11 min,measures the knowledge of Python programming.,https://www.shl.com/solutions/products/product-catalog/view/python-new/
+R Programming (New),yes,No,K,13 min,measures the knowledge of R programming.,https://www.shl.com/solutions/products/product-catalog/view/r-programming-new/
+ReactJS (New),yes,No,K,10 min,measures the technical knowledge of React APIs.,https://www.shl.com/solutions/products/product-catalog/view/reactjs-new/
+RESTful Web Services (New),yes,No,K,12 min,measures the knowledge of REST features and security.,https://www.shl.com/solutions/products/product-catalog/view/rest-new/
+Ruby (New),yes,No,K,11 min,measures the knowledge of Ruby programming.,https://www.shl.com/solutions/products/product-catalog/view/ruby-new/
+Ruby on Rails (New),yes,No,K,11 min,measures the knowledge of Ruby Programming and Rails installation.,https://www.shl.com/solutions/products/product-catalog/view/ruby-on-rails-new/
+Salesforce Development (New),yes,No,K,15 min,measures the knowledge of Salesforce development.,https://www.shl.com/solutions/products/product-catalog/view/salesforce-development-new/
+SAP ABAP (Advanced Level) (New),yes,No,K,12 min,measures the knowledge of SAP ABAP dictionary and Adobe forms.,https://www.shl.com/solutions/products/product-catalog/view/sap-abap-advanced-level-new/
+SAP ABAP (Intermediate Level) (New),yes,No,K,9 min,measures the knowledge of SAP ABAP dictionary.,https://www.shl.com/solutions/products/product-catalog/view/sap-abap-intermediate-level-new/
+SAP Basis (New),yes,No,K,9 min,measures the knowledge of SAP architecture.,https://www.shl.com/solutions/products/product-catalog/view/sap-basis-new/
+SAP Business Objects WebI (New),yes,No,K,10 min,measures the knowledge of SAP interactive analysis.,https://www.shl.com/solutions/products/product-catalog/view/sap-business-objects-webi-new/
+SAP BW (Business Warehouse) (New),yes,No,K,9 min,measures the knowledge of SAP architecture.,https://www.shl.com/solutions/products/product-catalog/view/sap-bw-business-warehouse-new/
+SAP HCM (Human Capital Management) (New),yes,No,K,TBC,measures the knowledge of SAP HR and HCM structure.,https://www.shl.com/solutions/products/product-catalog/view/sap-hcm-human-capital-management-new/
+SAP Hybris (New),yes,No,K,20 min,measures the knowledge of SAP Hybris and Cockpit framework.,https://www.shl.com/solutions/products/product-catalog/view/sap-hybris-new/
+SAP Materials Management (New)2,yes,No,K,10 min,measures the knowledge of SAP materials management.,https://www.shl.com/solutions/products/product-catalog/view/sap-materials-management-new/
+SAP SD (Sales and Distribution) (New),yes,No,K,8 min,measures the knowledge of ERP and sales.,https://www.shl.com/solutions/products/product-catalog/view/sap-sd-sales-and-distribution-new/
+Search Engine Optimization (New),yes,No,K,12 min,measures the knowledge on the concepts of need of SEO.,https://www.shl.com/solutions/products/product-catalog/view/search-engine-optimization-new/
+Selenium (New),yes,No,K,10 min,measures the knowledge of Selenium and web driver.,https://www.shl.com/solutions/products/product-catalog/view/selenium-new/
+Shell Scripting (New),yes,No,K,10 min,measures the knowledge of Shell scripting.,https://www.shl.com/solutions/products/product-catalog/view/shell-scripting-new/
+Siebel Development (New),yes,No,K,8 min,measures the knowledge of Siebel and deployment.,https://www.shl.com/solutions/products/product-catalog/view/siebel-development-new/
+SQL (New),yes,No,K,9 min,measures the knowledge of SQL.,https://www.shl.com/solutions/products/product-catalog/view/sql-new/
+SQL Server (New),yes,No,K,11 min,measures the knowledge of basic SQL.,https://www.shl.com/solutions/products/product-catalog/view/sql-server-new/
+SQL Server Analysis Services (SSAS) (New),yes,No,K,15 min,measures the knowledge of SSAS database and power BI.,https://www.shl.com/solutions/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/
+SQL Server Integration Services (SSIS) (New),yes,No,K,10 min,measures the knowledge of SSIS architecture and security.,https://www.shl.com/solutions/products/product-catalog/view/sql-server-reporting-services-ssrs-new/
+SQL Server Reporting Services (SSRS) (New),yes,No,K,10 min,measures the knowledge of SSRS architecture and security.,https://www.shl.com/solutions/products/product-catalog/view/sql-server-reporting-services-ssrs-new/
+Struts (New),yes,No,K,5 min,measures the knowledge of Struts framework.,https://www.shl.com/solutions/products/product-catalog/view/struts-new/
+Swing (New),yes,No,K,4 min,measures the knowledge of components and containers in Swing.,https://www.shl.com/solutions/products/product-catalog/view/swing-new/
+Tableau (New),yes,No,K,8 min,measures the knowledge of how to use Tableau to prepare tables.,https://www.shl.com/solutions/products/product-catalog/view/tableau-new/
+Telecommunications Engineering (New),yes,No,K,7 min,measures the knowledge of analog communication.,https://www.shl.com/solutions/products/product-catalog/view/telecommunications-engineering-new/
+UNIX (New),yes,No,K,9 min,measures the knowledge on the concepts of UNIX commands and shell programming.,https://www.shl.com/solutions/products/product-catalog/view/unix-new/
+VB.NET (New),yes,No,k,10 min,measures the knowledge on the concepts of VB.NET and OOPs.,https://www.shl.com/solutions/products/product-catalog/view/vb-net-new/
+Zabbix (New),yes,No,K,9 min,measures the knowledge of Zabbix architecture and data handling.,https://www.shl.com/solutions/products/product-catalog/view/zabbix-new/
