@@ -1,30 +1,62 @@
 import os
 import re
+import json
 import requests
+import pandas as pd
 import streamlit as st
 from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer
 import chromadb
 from chromadb.config import Settings
-from utils import build_chroma_db
 
 # ✅ Streamlit page setup
 st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
 st.title("SHL Assessment Recommendation Engine")
 st.markdown("Paste a job description, a LinkedIn job URL, or just describe what kind of role you want to assess.")
 
-@st.cache_resource
-def init_db():
-    build_chroma_db()
-    return True
-
-# Will only run if user actually queries
-
-
 # ✅ Cached model loader
 @st.cache_resource
 def load_model():
     return SentenceTransformer("all-MiniLM-L6-v2")
+
+# ✅ Build ChromaDB if not already present
+def build_chroma_db():
+    if os.path.exists("shl_db") and os.path.exists("SHL_Product_Catalog_With_Embeddings.csv"):
+        print("✅ shl_db already exists. Skipping build.")
+        return
+
+    print("🔨 Building Chroma vector DB...")
+
+    df = pd.read_csv("SHL.csv")
+    model = load_model()
+
+    df["embedding"] = df["Description"].apply(lambda desc: model.encode(desc).tolist())
+    df.to_csv("SHL_Product_Catalog_With_Embeddings.csv", index=False)
+
+    chroma_client = chromadb.PersistentClient(path="./shl_db", settings=Settings(anonymized_telemetry=False))
+    collection = chroma_client.get_or_create_collection(name="shl_assessments")
+
+    for index, row in df.iterrows():
+        embedding = row["embedding"]
+        if isinstance(embedding, str):
+            embedding = json.loads(embedding)
+
+        metadata = {
+            "Assessment name": row["Assessment Name"],
+            "Remote Testing": row["Remote Testing"],
+            "Adaptive/IRT": row["Adaptive/IRT"],
+            "Test Type": row["Test Type"],
+            "Duration": row["Duration"],
+            "URL": row["URL"]
+        }
+
+        collection.add(
+            ids=[str(index)],
+            embeddings=[embedding],
+            metadatas=[metadata]
+        )
+
+    print("✅ Assessments stored in ChromaDB!")
 
 # ✅ Cached ChromaDB collection loader
 @st.cache_resource
@@ -34,8 +66,9 @@ def load_chroma_collection():
     )
     return client.get_or_create_collection(name="shl_assessments")
 
-# Load cached resources
+# Load resources
 model = load_model()
+build_chroma_db()
 collection = load_chroma_collection()
 
 def extract_text_from_url(url):
@@ -85,7 +118,6 @@ top_k = st.slider("How many assessments to show?", min_value=1, max_value=10, va
 if st.button("🔍 Recommend Assessments"):
     if query.strip():
         with st.spinner("Finding the best matching SHL assessments..."):
-            init_db()
             results = recommend_assessment(query, top_k=top_k)
             for r in results:
                 st.markdown(r)
