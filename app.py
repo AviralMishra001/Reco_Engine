@@ -21,7 +21,7 @@ def load_model():
 
 # ✅ Build ChromaDB if not already present
 def build_chroma_db():
-    if os.path.exists("shl_db") and os.path.exists("SHL_Product_Catalog_With_Embeddings.csv"):
+    if os.path.exists("shl_db") and os.listdir("shl_db"):
         print("✅ shl_db already exists. Skipping build.")
         return
 
@@ -68,8 +68,6 @@ def load_chroma_collection():
 
 # Load resources
 model = load_model()
-build_chroma_db()
-collection = load_chroma_collection()
 
 def extract_text_from_url(url):
     try:
@@ -118,6 +116,8 @@ top_k = st.slider("How many assessments to show?", min_value=1, max_value=10, va
 if st.button("🔍 Recommend Assessments"):
     if query.strip():
         with st.spinner("Finding the best matching SHL assessments..."):
+            build_chroma_db()
+            collection = load_chroma_collection()
             results = recommend_assessment(query, top_k=top_k)
             for r in results:
                 st.markdown(r)
